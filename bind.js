@@ -1,15 +1,15 @@
-let person1 = {
-    name: "John",
-    age: 30,
-    job: "teacher",
-}
+// let person1 = {
+//     name: "John",
+//     age: 30,
+//     job: "teacher",
+// }
 
-let showDetails = function (city,state){
-    console.log(this.name + " " + this.age + " " + this.job + " " + city + " " + state)
-}
+// let showDetails = function (city,state){
+//     console.log(this.name + " " + this.age + " " + this.job + " " + city + " " + state)
+// }
 
-let showDetailsBind = showDetails.bind(person1, 'Noida')
-showDetailsBind("UP")
+// let showDetailsBind = showDetails.bind(person1, 'Noida')
+// showDetailsBind("UP")
 
 
 Function.prototype.myBind = function(...args){
